@@ -1,0 +1,24 @@
+.app_container {
+  margin: 0 auto;
+  padding: 16px 10px;
+  width: 100%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+@media only screen and (min-width: 768px) {
+  .app_container {
+    padding: 16px 16px;
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .app_container {
+    padding: 16px 32px;
+    max-width: 1440px;
+    max-height: 100vh;
+    flex-wrap: wrap;
+  }
+}

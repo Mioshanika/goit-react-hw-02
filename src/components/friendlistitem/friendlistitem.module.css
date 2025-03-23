@@ -1,0 +1,25 @@
+.friend_card {
+  padding: 16px;
+  font-weight: 500;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid black;
+  border-radius: 8px;
+  background-color: beige;
+  color: black;
+}
+.friend_card > img {
+  margin-bottom: 12px;
+}
+.online {
+  font-weight: 400;
+  font-size: 18px;
+  color: green;
+}
+.offline {
+  font-weight: 400;
+  font-size: 18px;
+  color: red;
+}
