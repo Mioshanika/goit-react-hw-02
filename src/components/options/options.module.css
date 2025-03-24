@@ -1,0 +1,11 @@
+.options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: nowrap;
+}
+.options button {
+  padding: 0 8px;
+  background-color: var(--btn-bg);
+  border: 2px outset var(--main-text);
+  cursor: pointer;
+}

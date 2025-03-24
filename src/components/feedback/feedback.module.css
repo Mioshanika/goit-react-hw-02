@@ -1,0 +1,48 @@
+.feedback {
+  width: 300px;
+  border-spacing: 4px;
+}
+.feedback th {
+  font-weight: 400;
+}
+.feedback td {
+  text-align: center;
+  font-weight: 500;
+}
+.feedback th,
+.feedback td {
+  padding: 8px;
+  border-radius: 50%;
+}
+.feedback th:nth-child(n + 1),
+.feedback td:nth-child(n + 1) {
+  background-color: var(--color-good);
+}
+.feedback th:nth-child(n + 2),
+.feedback td:nth-child(n + 2) {
+  background-color: var(--color-neutral);
+}
+.feedback th:nth-child(n + 3),
+.feedback td:nth-child(n + 3) {
+  background-color: var(--color-bad);
+}
+.feedback th:nth-child(n + 4),
+.feedback td:nth-child(n + 4) {
+  background-color: var(--color-total);
+}
+.percents {
+  padding-top: 32px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  border: 2px inset var(--main-text);
+  border-radius: 50%;
+}
+.positive {
+  background-color: var(--color-good);
+}
+.negative {
+  background-color: var(--color-bad);
+}
