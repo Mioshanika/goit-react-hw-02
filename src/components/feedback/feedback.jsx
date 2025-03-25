@@ -1,9 +1,8 @@
 import s from './feedback.module.css';
 import clsx from 'clsx';
 
-export default function Feedback({ numbers, total }) {
+export default function Feedback({ numbers, total, positive }) {
   const { good, neutral, bad } = numbers;
-  const positive = total ? Math.round(((good + neutral) / total) * 100) : 0;
   const isGood = positive >= 50 ? true : false;
   const isBad = positive < 50 ? true : false;
   return (
